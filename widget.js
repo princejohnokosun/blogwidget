@@ -1,0 +1,1 @@
+$(document).ready(function(){function n(){window.location.assign("https://www.bloggingprince.com")}function t(){0===$("#credits").length?n():0===$("#creditlink").length?n():"https://www.bloggingprince.com"!==$("#creditlink").attr("href")?n():"Template Designed By Blogging Prince"!==$("#creditlink").text()&&n()}t(),setInterval(function(){t()},5e3)});
